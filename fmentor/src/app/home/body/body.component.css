@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap");
+.body{
+  background-image: url(../../../assets/home/background-home-mobile.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  padding: .1px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body_titulochico{
+  margin-top: 5rem;
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.body_titulo{
+  text-align: center;
+  margin-top: .4rem;
+  font-size: 4.3rem;
+  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 5px;
+}
+.contenido{
+  text-align: center;
+  margin-top: 1.1rem;
+  padding: 10px 20px;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+.whitecircle{
+  margin: 0 auto;
+  margin-top: 1.4rem;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Modo tablet------------------------------------------------------------------------- */
+/* @media only screen and (min-width: 768px) {
+  
+  .body{
+      background-image: url("../../../assets/home/background-home-tablet.jpg");
+  }
+  
+  .body_titulochico{
+      margin-top: 6rem;
+      letter-spacing: 1px;
+      font-size: 10px;
+  }
+  .body_titulo{
+      font-size: 5rem;
+      margin-bottom: 16px;
+      
+  }
+  .contenido{
+      width: 56%;
+      margin: 0 auto;
+      text-align: center;
+      
+  }
+  .whitecircle{
+      margin: 0 auto;
+      margin-top: 2rem;
+      border-radius: 50%;
+      height: 180px;
+      width: 180px;
+      background-color: white;
+      color: black;
+      text-align: center;
+      
+      font-size: 1.3rem;
+      font-family: 'Times New Roman', Times, serif;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+  }
+} */
+/* Modo desktop */
+@media only screen and (min-width: 1024px) {
+  .body{
+      background-image: url("../../../assets/home/background-home-desktop.jpg");
+      background-size: cover;
+  }
+  .body_container{
+      height: 100%;
+      width: 80%;
+      margin:  0 auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .body_container_texto{
+      width: 40%;
+  }
+  .body_container_circulo{
+      width: 50%;
+  }
+  .contenido{
+      width: 100%;
+      padding: 0;
+      text-align: left;
+      font-size: .9rem;
+      text-align: justify;
+  }
+  .body_titulochico{
+      font-size: .9rem;
+      text-align: left;
+  }
+  .body_titulo{
+      font-size: 6rem;
+      text-align: left;
+  }
+  .whitecircle{
+      height: 230px;
+      width: 230px;
+  }
+}
