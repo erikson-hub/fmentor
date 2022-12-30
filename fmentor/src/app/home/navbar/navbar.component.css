@@ -1,0 +1,64 @@
+/* .menu {
+    height: 100vh;
+    background: url(../../../assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+  .main {
+    display: flex;
+    color: #edf2f6;
+    height: 100%;
+    margin-top: 100px;
+  }
+
+
+  b {
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+  }
+  a {
+    color: rgb(224, 217, 217);
+    font-size: 17px;
+  }
+  
+  /* NAVBAR */
+  .container-fluid {
+    margin-top: 50px;
+  }
+  .navbar {
+    background-color: transparent;
+    position: relative;
+    padding: 10px;
+    margin-left: 10%;
+  }
+  .nav-item.active {
+    border-bottom: 3px solid white;
+  }
+  ul {
+    background-color: #cccccc40;
+    padding-left: 90px;
+    padding-right: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .navbar::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    border-bottom: 0.3px solid #ccc6;
+    top: 66%;
+    bottom: 50%;
+    left: 9%;
+  }
+  .nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing: 2.35px;
+    color: white;
+    padding: 16px;
+    display: block;
+  }
+  
+  
