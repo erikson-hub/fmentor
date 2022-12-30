@@ -1,6 +1,5 @@
 .contenedor2 {
-    background-image: url('../../../assets/destination/background-destination-desktop.jpg');
-    height: 100vh;
+    /* height: 100vh; */
     padding: 2rem 0;
 }
 .contenedorpag2 {
@@ -30,20 +29,7 @@
 }
 .image img{
     width: 100%;
-    animation: rotate 8s infinite linear;
-
-    /* .tuclase planeta{
-        animation: rotate 3s infinite linear;
-    }
-    @keyframes rotate {
-        from{
-            transform: rotate(0deg);
-        }
-        to{
-            transform: rotate(360deg);
-        }
-    }
-  } */
+    animation: rotate 8s infinite linear;   
 }
 
 @keyframes rotate {
@@ -84,10 +70,6 @@
 .menu a {
     color: white;
     text-decoration: none;
-}
-
-.texto {
-    /* width: 40%; */
 }
 .texto h3 {
     font-size: 4em;
