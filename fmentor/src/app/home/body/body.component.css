@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap");
-.body{
+.home{
   background-image: url(../../../assets/home/background-home-mobile.jpg);
   background-size: cover;
   background-position: center center;
@@ -9,7 +9,7 @@
   padding: .1px ;
   font-family: Arial, Helvetica, sans-serif;
 }
-.body_titulochico{
+.home_title_first{
   margin-top: 5rem;
   text-align: center;
   color: white;
@@ -17,7 +17,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.body_titulo{
+.home_title_second{
   text-align: center;
   margin-top: .4rem;
   font-size: 4.3rem;
@@ -25,7 +25,7 @@
   font-family: 'Times New Roman', Times, serif;
   letter-spacing: 5px;
 }
-.contenido{
+.content{
   text-align: center;
   margin-top: 1.1rem;
   padding: 10px 20px;
@@ -33,7 +33,7 @@
   font-size: 0.9rem;
   line-height: 1.7;
 }
-.whitecircle{
+.white_circle{
   margin: 0 auto;
   margin-top: 1.4rem;
   border-radius: 50%;
@@ -49,29 +49,29 @@
   font-family: 'Times New Roman', Times, serif;
 }
 /* Modo tablet------------------------------------------------------------------------- */
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   
-  .body{
+  .home{
       background-image: url("../../../assets/home/background-home-tablet.jpg");
   }
   
-  .body_titulochico{
+  .home_title_first{
       margin-top: 6rem;
       letter-spacing: 1px;
       font-size: 10px;
   }
-  .body_titulo{
+  .home_title_second{
       font-size: 5rem;
       margin-bottom: 16px;
       
   }
-  .contenido{
+  .content{
       width: 56%;
       margin: 0 auto;
       text-align: center;
       
   }
-  .whitecircle{
+  .white_circle{
       margin: 0 auto;
       margin-top: 2rem;
       border-radius: 50%;
@@ -86,14 +86,14 @@
       letter-spacing: 3px;
       text-transform: uppercase;
   }
-} */
+} 
 /* Modo desktop */
 @media only screen and (min-width: 1024px) {
-  .body{
+  .home{
       background-image: url("../../../assets/home/background-home-desktop.jpg");
       background-size: cover;
   }
-  .body_container{
+  .home_container{
       height: 100%;
       width: 80%;
       margin:  0 auto;
@@ -101,28 +101,28 @@
       justify-content: space-around;
       align-items: center;
   }
-  .body_container_texto{
+  .home_container_text{
       width: 40%;
   }
-  .body_container_circulo{
-      width: 50%;
+  .home_container_circle{
+      width: 30%;
   }
-  .contenido{
+  .content{
       width: 100%;
       padding: 0;
       text-align: left;
       font-size: .9rem;
       text-align: justify;
   }
-  .body_titulochico{
+  .home_title_first{
       font-size: .9rem;
       text-align: left;
   }
-  .body_titulo{
+  .home_title_second{
       font-size: 6rem;
       text-align: left;
   }
-  .whitecircle{
+  .white_circle{
       height: 230px;
       width: 230px;
   }
