@@ -1,9 +1,9 @@
-.menu {
+/* .menu {
     height: 100vh;
     background: url(../../../assets/home/background-home-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
   .main {
     display: flex;
     color: #edf2f6;
@@ -59,14 +59,6 @@
     color: white;
     padding: 16px;
     display: block;
-  }
-  
-  @media (max-width: 1160px) {
-    .navbar::after {
-      display: none;
-      border-color: white;
-      width: 0%;
-    }
   }
   
   
