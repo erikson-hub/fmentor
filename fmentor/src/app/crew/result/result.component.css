@@ -1,3 +1,4 @@
+
 .crew-body {
   /* height: 100vh; */
   background: url(../../../assets/crew/background-crew-desktop.jpg);
@@ -33,6 +34,7 @@ a {
 }
 
 /* NAVBAR */
+
 .container-fluid {
   margin-top: 50px;
 }
@@ -41,6 +43,7 @@ a {
   position: relative;
   padding: 10px;
   margin-left: 10%;
+  margin-bottom: 5%;
 }
 .nav-item.active {
   border-bottom: 3px solid white;
@@ -71,11 +74,59 @@ ul {
   padding: 16px;
   display: block;
 }
+.crew_container_img {
+  display: flex;
+  justify-content: center;
+}
 
-@media (max-width: 1160px) {
-  .navbar::after {
-    display: none;
-    border-color: white;
-    width: 0%;
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap");
+.crew {
+  background-image: url(../../../assets/crew/background-crew-mobile.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  padding: 0.1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Modo tablet------------------------------------------------------------------------- */
+@media only screen and (min-width: 768px) {
+  .crew {
+    background-image: url("../../../assets/crew/background-crew-tablet.jpg");
+  }
+
+  img {
+    height: 45vh;
+  }
+}
+/* Modo desktop */
+@media only screen and (min-width: 1024px) {
+  .crew {
+    background-image: url("../../../assets/crew/background-crew-desktop.jpg");
+    background-size: cover;
+  }
+  .crew_container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .crew_container_text {
+    width: 40%;
+  }
+  .crew_container_img {
+    width: 30%;
+  }
+  img {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    height: 35vh;
   }
 }
